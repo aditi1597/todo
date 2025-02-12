@@ -1,0 +1,31 @@
+:root{
+    --primary-color: rgb(130, 200, 87);
+    --secondary-color: rgb(174, 171, 171);
+}
+*{
+    transition: all 0.5s ease-in-out;
+}
+
+header{
+    background-color: var(--primary-color);
+    padding: 10px;
+    font-size: 100;
+    text-align: center;
+    color: white;
+}
+
+#noTask{
+    display: block;
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.finished{
+    text-decoration: line-through; 
+    color: gray;
+}
+
+.hidden{
+    display: none;
+}
